@@ -31,17 +31,18 @@
             this.btniniciarsesion = new System.Windows.Forms.Button();
             this.lblusuario = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtusuario = new System.Windows.Forms.TextBox();
-            this.lblcontrasena = new System.Windows.Forms.Label();
             this.txtcontrasena = new System.Windows.Forms.TextBox();
+            this.lblcontrasena = new System.Windows.Forms.Label();
+            this.txtusuario = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btniniciarsesion
             // 
-            this.btniniciarsesion.Location = new System.Drawing.Point(47, 120);
+            this.btniniciarsesion.Location = new System.Drawing.Point(35, 98);
+            this.btniniciarsesion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btniniciarsesion.Name = "btniniciarsesion";
-            this.btniniciarsesion.Size = new System.Drawing.Size(152, 32);
+            this.btniniciarsesion.Size = new System.Drawing.Size(114, 26);
             this.btniniciarsesion.TabIndex = 0;
             this.btniniciarsesion.Text = "Iniciar Sesion";
             this.btniniciarsesion.UseVisualStyleBackColor = true;
@@ -49,9 +50,10 @@
             // lblusuario
             // 
             this.lblusuario.AutoSize = true;
-            this.lblusuario.Location = new System.Drawing.Point(6, 34);
+            this.lblusuario.Location = new System.Drawing.Point(4, 28);
+            this.lblusuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(57, 17);
+            this.lblusuario.Size = new System.Drawing.Size(43, 13);
             this.lblusuario.TabIndex = 1;
             this.lblusuario.Text = "Usuario";
             // 
@@ -62,44 +64,51 @@
             this.groupBox1.Controls.Add(this.txtusuario);
             this.groupBox1.Controls.Add(this.btniniciarsesion);
             this.groupBox1.Controls.Add(this.lblusuario);
-            this.groupBox1.Location = new System.Drawing.Point(24, 32);
+            this.groupBox1.Location = new System.Drawing.Point(18, 26);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(266, 184);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(200, 150);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Iniciar Sesion";
             // 
-            // txtusuario
+            // txtcontrasena
             // 
-            this.txtusuario.Location = new System.Drawing.Point(108, 34);
-            this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(91, 22);
-            this.txtusuario.TabIndex = 2;
+            this.txtcontrasena.Location = new System.Drawing.Point(81, 59);
+            this.txtcontrasena.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtcontrasena.Name = "txtcontrasena";
+            this.txtcontrasena.Size = new System.Drawing.Size(69, 20);
+            this.txtcontrasena.TabIndex = 4;
             // 
             // lblcontrasena
             // 
             this.lblcontrasena.AutoSize = true;
-            this.lblcontrasena.Location = new System.Drawing.Point(6, 78);
+            this.lblcontrasena.Location = new System.Drawing.Point(4, 63);
+            this.lblcontrasena.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblcontrasena.Name = "lblcontrasena";
-            this.lblcontrasena.Size = new System.Drawing.Size(81, 17);
+            this.lblcontrasena.Size = new System.Drawing.Size(61, 13);
             this.lblcontrasena.TabIndex = 3;
             this.lblcontrasena.Text = "Contraseña";
             // 
-            // txtcontrasena
+            // txtusuario
             // 
-            this.txtcontrasena.Location = new System.Drawing.Point(108, 73);
-            this.txtcontrasena.Name = "txtcontrasena";
-            this.txtcontrasena.Size = new System.Drawing.Size(91, 22);
-            this.txtcontrasena.TabIndex = 4;
+            this.txtusuario.Location = new System.Drawing.Point(81, 28);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtusuario.Name = "txtusuario";
+            this.txtusuario.Size = new System.Drawing.Size(69, 20);
+            this.txtusuario.TabIndex = 2;
             // 
             // forminiciarsesion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(317, 243);
+            this.ClientSize = new System.Drawing.Size(238, 197);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "forminiciarsesion";
             this.Text = "Iniciar Sesion";
+            this.Load += new System.EventHandler(this.forminiciarsesion_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

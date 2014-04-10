@@ -15,5 +15,10 @@ namespace Correo
         {
             InitializeComponent();
         }
+
+        private void forminiciarsesion_Load(object sender, EventArgs e)
+        {
+            string Value = "String";
+        }
     }
 }
